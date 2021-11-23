@@ -1,0 +1,40 @@
+.about {
+  font-style: normal;
+  padding-top: 51px;
+  padding-bottom: 103px;
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 1.71;
+    /* identical to box height, or 171% */
+    color: #2c3e50;
+    margin-bottom: 33px;
+  }
+  &__text {
+    margin-right: 71px;
+    width: 489px;
+    height: 426px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.67;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    color: #444444;
+  }
+  &__photo-title {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 5.45;
+    /* identical to box height, or 545% */
+
+    display: flex;
+    align-items: center;
+
+    color: #2c3e50;
+  }
+}
